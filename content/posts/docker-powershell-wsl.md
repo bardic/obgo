@@ -28,4 +28,4 @@ Now from within Powershell your docker will connect to the instance running in W
 If you also want it to autostart on boot, there's a few more steps. 
 
 - Create a `.vbs` script in your Start Folder (`%ProgramData%\Microsoft\Windows\Start Menu\Programs\StartUp`)
-- Update your systemd docker scirpt in WSL. There are several approaches outlines [here](https://stackoverflow.com/questions/44052054/unable-to-start-docker-after-configuring-hosts-in-daemon-json/44053219#44053219)
+- Update your systemd docker scirpt in WSL. There are several approaches outlines [here](https://stackoverflow.com/questions/44052054/unable-to-start-docker-after-configuring-hosts-in-daemon-json/44053219#44053219).
