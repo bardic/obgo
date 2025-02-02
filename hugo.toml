@@ -1,0 +1,19 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'dead-simple'
+
+[[menu.main]]
+name = "<u>H</u>ome"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "<u>T</u>ags"
+url = "/tags/"
+weight = 2
+
+[[menu.main]]
+name = "Projects"
+url = "/projects/"
+weight = 3

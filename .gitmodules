@@ -1,0 +1,6 @@
+[submodule "hugo-dead-simple"]
+	path = hugo-dead-simple
+	url = https://github.com/bardic/hugo-dead-simple
+[submodule "themes/dead-simple"]
+	path = themes/dead-simple
+	url = https://github.com/bardic/hugo-dead-simple
