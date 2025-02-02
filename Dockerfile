@@ -8,4 +8,4 @@ FROM python:alpine3.21 AS Runner
 COPY --from=Builder /openbracket/public/ /www
 WORKDIR /www
 EXPOSE 8989
-CMD ["python", "-m", "http.server", "8989"]
+CMD ["python", "-m", "http.server", "8989"] 
