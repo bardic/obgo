@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://openbracket.ca/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Openbracket'
 theme = 'dead-simple'
 
 [[menu.main]]

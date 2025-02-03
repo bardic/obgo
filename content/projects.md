@@ -6,4 +6,9 @@ type = "page"
 layout = "single"
 +++
 
- - gocrib
+ - [gocrib](https://github.com/bardic/gocrib)
+   - Golang multiplayer cribbage game
+ - [Openpbr](https://github.com/bardic/openpbr)
+   - Minecraft package creating software
+ - [Dirk](https://github.com/bardic/Dirk)
+   - Daggerized GameCI
