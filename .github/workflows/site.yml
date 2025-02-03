@@ -16,3 +16,14 @@ jobs:
         uses: docker/setup-buildx-action@v3
         with:
           endpoint: ssh://root@143.110.219.118
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          push: false
+          tags: openbracket:latest
+      - name: Update images
+        run: ssh root@143.110.219.118 'docker compose pull'
+      - name: Restart Images
+        run: ssh root@143.110.219.118 'docker compose up -d --remove-orphans'
+      - name: Prune old images
+        run: ssh root@143.110.219.118 'docker image prune'
