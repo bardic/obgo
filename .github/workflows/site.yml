@@ -22,8 +22,8 @@ jobs:
           push: false
           tags: openbracket:latest
       - name: Update images
-        run: ssh root@143.110.219.118 'docker compose pull'
+        run: ssh root@143.110.219.118:/root/site 'docker compose pull'
       - name: Restart Images
-        run: ssh root@143.110.219.118 'docker compose up -d --remove-orphans'
+        run: ssh root@143.110.219.118:/root/site 'docker compose up -d --remove-orphans'
       - name: Prune old images
-        run: ssh root@143.110.219.118 'docker image prune'
+        run: ssh root@143.110.219.118:/root/site 'docker image prune'
