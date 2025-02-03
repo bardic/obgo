@@ -19,7 +19,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
-          push: true
+          load: true
           tags: openbracket:latest
       - name: Update images
         run: ssh root@143.110.219.118 'cd /root/site && docker compose pull --ignore-pull-failures'
